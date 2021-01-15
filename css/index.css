@@ -86,7 +86,6 @@ header nav a:hover {
 .bannerImage {
     display: flex;
     justify-content: center;
-    margin: 30px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -216,4 +215,54 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    transition: .5s;
+}
+
+/* ABOUT PAGE CSS */
+
+.aboutPage{
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+    Margin-right: 75px;
+    padding-top: 20px;
+    border-bottom: 1px dotted black;
+}
+.infoBoxes {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    Margin-right: 75px;
+    
+}
+
+.infoBox {
+    width: 45%;
+    margin-top: 20px;
+    border-bottom: 1px dotted black
+}
+
+.infoBox p {
+    font-size: 16px;
+}
+
+.infoBox button {
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 20px 5px;
+}
+
+.workTogether {
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+    Margin-right: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted black;
 }
