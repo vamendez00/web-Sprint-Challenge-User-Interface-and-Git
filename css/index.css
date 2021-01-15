@@ -55,6 +55,39 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+header {
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 80px;
+    transition: .5s;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+
+header nav a:hover {
+    background: black;
+    color: white;
+}
+
+.bannerImage {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -110,6 +143,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background:gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background:forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background:hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background:indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
 }
 
 .bottom-content {
