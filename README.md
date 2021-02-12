@@ -34,22 +34,34 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Some HTML tags are more meaningful to a browser (or a screen reading device) than other tags.  We call these semantic tags, as opposed to generic tags.  For example, a <div> is considered a generic tag for a container, whereas <header>, <section>, <h1> or <img> are more specific.  A browser, screen reading device, or even a fellow developer, know what to expect from those tags, whereas  <div> might represent a number of things, depending on how it's used or what is inside of it.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    Difference 1: display:block creates a space before AND after the content/element, thereby creating its own "block", whereas display:inline falls "inline" (on the same line as whatever is before/after it) within the block it is already in.
+
+    Difference 2: display:block will take whatever width is available, whereas display:inline only takes up the space required to fit.
 
 3. What are the 4 areas of the box model?
 
+    From the inside moving out, the areas are: content, padding, border, margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    The "align-items" property works on the cross axis, which changes directionally depending on whether it's a row or column. For row, the cross axis is vertical, and for column, the cross axis is horizontal.
+
 5. Explain why git is valuable to a team of developers.
+
+    Git is valuable to a team of developers because it makes it easier to coordinate/collaborate, whether people are physically in the same space or not, by keeping track of project file versions/changes, thereby also making it easier to identify problems.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [X] Create a forked copy of this project.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
