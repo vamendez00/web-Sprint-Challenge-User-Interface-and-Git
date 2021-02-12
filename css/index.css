@@ -48,9 +48,9 @@ table {
 }
 /* ----------------------------------------- */
 
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 html, body {
     height: 100%;
@@ -59,7 +59,7 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-size: 1.1rem;
-    font-weight:bold;
+    font-weight: bold;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
@@ -67,7 +67,8 @@ h1, h2, h3, h4, h5 {
 header nav {
     width: 100%;
     display: flex;
-    justify-content: space-between;align-items: center;
+    justify-content: space-between;
+    align-items: center;
     font-size:.9rem;
     transition: .5s;
     padding-top: 2%;
@@ -84,7 +85,9 @@ header nav {
 header .menu a {
     color: black;
     text-decoration: none;
-    font-family: 'Rubik';
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    transition: .3s;
 }
 
 header .menu a:hover {
@@ -116,7 +119,8 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 2%;  
+    padding-bottom: 2%;
+    font-weight: bold;  
 }
 
 .middle-content {
@@ -144,6 +148,9 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    font-weight: bold;  
+
 }
 
 
@@ -195,6 +202,7 @@ p {
 
 .bottom-content .text-container {
     padding-right: 4%;
+    font-weight: bold;  
 }
 
 .bottom-content .text-container:last-child {
@@ -210,9 +218,9 @@ footer nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 2%;
-    font-size: .8rem;
+    font-size: .9rem;
+    transition: .3s;
 }
 
 footer nav a {
@@ -222,7 +230,6 @@ footer nav a {
 
 footer nav a:hover {
     color:red;
-    text-decoration: none;
 }
 
 /* ABOUT PAGE CSS */
@@ -231,6 +238,7 @@ footer nav a:hover {
     border-bottom: 1px dotted black;
     margin: 2%;
     padding-bottom:2%;
+    font-weight:bold;
 }
 
 .aboutCategories {
@@ -245,6 +253,7 @@ footer nav a:hover {
     margin-top: 2%;
     margin-bottom: 2%;
     border-bottom: 1px dotted black;
+    font-weight:bold;
 }
 
 .categoryItem h2 {
@@ -253,7 +262,7 @@ footer nav a:hover {
 
 .categoryItem p {
     font-size: 1rem;
-    padding-bottom:%;
+    padding-bottom:2%;
 }
 
 .categoryItem button {
@@ -266,14 +275,16 @@ footer nav a:hover {
     padding-left: 4%;
     padding-right: 4%;
     font-size: .9rem;
-    }
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
 
 .categoryItem button:hover {
     background: black;
     color:white;
-
 }
 
 .recruit {
     margin: 2%;
+    font-weight:bold;
 }
