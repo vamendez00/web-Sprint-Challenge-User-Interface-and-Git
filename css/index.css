@@ -88,7 +88,7 @@ header .menu a {
 }
 
 header .menu a:hover {
-    color: darkred;
+    color: rgb(190, 3, 3);
 }
 
 p {
@@ -104,22 +104,23 @@ p {
 .mainImage {
     padding-bottom:2%;
 }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     border-bottom: 1px dashed black;
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 2%;  
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     border-bottom: 1px dashed black;
 }
 
@@ -252,7 +253,7 @@ footer nav a:hover {
 
 .categoryItem p {
     font-size: 1rem;
-    padding-bottom:4%;
+    padding-bottom:%;
 }
 
 .categoryItem button {
@@ -264,6 +265,7 @@ footer nav a:hover {
     padding: 2%;
     padding-left: 4%;
     padding-right: 4%;
+    font-size: .9rem;
     }
 
 .categoryItem button:hover {
